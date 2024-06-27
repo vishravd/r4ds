@@ -223,7 +223,7 @@ flights |>
 
 ### Exercises
 
-1.  In a single pipeline for each condition, find all flights that meet the condition:
+1.  Find all flights that meet each condition:
 
     -   Had an arrival delay of two or more hours
     -   Flew to Houston (`IAH` or `HOU`)
@@ -233,7 +233,7 @@ flights |>
     -   Were delayed by at least an hour, but made up over 30 minutes in flight
 
 2.  Sort `flights` to find the flights with longest departure delays.
-    Find the flights that left earliest in the morning.
+    From that, find the flights that left earliest in the morning.
 
 3.  Sort `flights` to find the fastest flights.
     (Hint: Try including a math calculation inside of your function.)
